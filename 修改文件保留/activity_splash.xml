@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity"
+    android:id="@+id/layout_welcome"
+    android:background="#ff000000">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/imageViewSplashBg"
+        android:background="@drawable/splash_background" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageViewLogo"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
+        android:maxWidth="200sp"
+        android:maxHeight="200sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageViewSlogan"
+        android:layout_marginTop="250dp"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
+        android:maxWidth="400sp"
+        android:maxHeight="200sp"
+        android:src="@drawable/textimg_kouhao" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageViewInit"
+        android:layout_marginTop="250dp"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
+        android:maxWidth="400sp"
+        android:maxHeight="200sp"
+        android:src="@drawable/textimg_init" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageViewUpdateResource"
+        android:layout_marginTop="250dp"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
+        android:maxWidth="400sp"
+        android:maxHeight="200sp"
+        android:src="@drawable/textimg_update_resource" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/run_tests"
+        android:id="@+id/textViewRunTests"
+        android:clickable="true"
+        android:textSize="20sp"
+        android:onClick="onClickRunTests"
+        android:textColor="#FFDEDEDE"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:alpha="0" />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:id="@+id/test_buttonView"
+        android:background="@color/white"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:text="进入后台按钮"
+        android:textSize="30sp"
+        android:textColor="@color/blue"
+        />
+
+
+</RelativeLayout>
