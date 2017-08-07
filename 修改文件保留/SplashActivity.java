@@ -77,14 +77,14 @@ public class SplashActivity extends Activity {
 
     private int runTestsButtonClickCount = 0;
 
-    private Button test_Button;//测试按钮，用于进入后台
+    
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
 
-
+		Button test_Button;//测试按钮，用于进入后台
         //测试按钮，用于进入后台
         test_Button=(Button)findViewById(R.id.test_buttonView);
         test_Button.setOnClickListener(new View.OnClickListener() {

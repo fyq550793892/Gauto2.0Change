@@ -54,6 +54,16 @@
         android:maxWidth="400sp"
         android:maxHeight="200sp"
         android:src="@drawable/textimg_update_resource" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageViewConfigObd"
+        android:layout_marginTop="250dp"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
+        android:maxWidth="400sp"
+        android:maxHeight="200sp"
+        android:src="@drawable/textimg_config_obd" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -66,17 +76,15 @@
         android:textColor="#FFDEDEDE"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:alpha="0" />
+        android:alpha="0"/>
     <Button
-        android:layout_width="200dp"
-        android:layout_height="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
         android:id="@+id/test_buttonView"
-        android:background="@color/white"
-        android:layout_centerInParent="true"
         android:layout_alignParentBottom="true"
         android:text="进入后台按钮"
-        android:textSize="30sp"
-        android:textColor="@color/blue"
+        android:textSize="25sp"
+        android:textColor="@color/white"
         />
 
 
