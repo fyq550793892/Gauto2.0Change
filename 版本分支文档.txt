@@ -1,0 +1,4 @@
+1、newpadTwo 工业pad，以后极可能要用的
+2、master 小米2pad
+3、test__201707 自己加新功能的分支
+4、newpad、fanyq、fanyqAdd是没用了（删了它）
