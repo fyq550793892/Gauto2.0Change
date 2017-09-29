@@ -1,0 +1,12 @@
+#BNF+IAT 1.0 UTF-8;
+!grammar call;
+!slot <contact>;
+!slot <callPre>;
+!slot <callPhone>;
+!slot <callTo>;
+!start <callStart>;
+<callStart>:[<callPre>][<callTo>]|[<callPre>]<callPhone>|<contact>;
+<contact>:讲一讲|讲一下|回放;
+<callPre>:开始|模拟|现在|你的|你叫|声音|音量|今天;
+<callPhone>:几点|考试|大一点|小一点|天气;
+<callTo>:名字|什么|#我叫奥特曼; 

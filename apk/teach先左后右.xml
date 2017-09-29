@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- 开机提示 -->
+	<string-array name="entrance_speech">
+		<item>1:欢迎使用,系统自检完成</item>
+	</string-array>
+
+    <!-- 无语音提示 -->
+    <string-array name="tts_array_empty">
+    </string-array>
+	
+	
+	<!-- 离合起步 语音提示 -->
+    <string-array name="clutch_tts">
+	    <item>1: 1</item>
+        <item>2: 2</item>
+		<item>3: 请踩下离合</item>
+		<item>4: 保持离合,挂挡</item>
+		<item>5:        然后请放下手刹</item>
+		<item>6:        然后请松开脚刹</item>
+		<item>7:        然后请缓慢抬离合至半联动</item>
+		<item>8: 车辆动了以后,就开始通过控制离合高低,保持尽量慢,不要停</item>
+		<item>11: 11</item>
+		<item>12: 12</item>
+        <item>13: 13</item>		
+        <item>14: 14</item>
+		<item>15: 停止松离合</item>
+		<item>16: 停止松离合</item>
+        <item>17: 17</item>
+		<item>18: 车辆动了以后,就开始通过控制离合高低,保持尽量慢,不要停</item>
+		<item>19: 19</item>
+		<item>20: 20</item>
+        <item>22: 挂倒挡, 慢抬离合</item>
+		<item>24: 挂一挡, 慢抬离合</item>
+		<item>25: 注意停车前先踩离合</item>
+		<item>26: 起步时注意松手刹,慢抬离合</item>
+    </string-array>
+	
+	<!-- 认识车 语音提示 -->
+    <string-array name="intro_tts">
+	    <item>1: </item>
+        <item>2: </item>
+		<item>3: </item>
+		<item>4: </item>
+		<item>11: </item>
+		<item>12: </item>
+        <item>13: </item>		
+        <item>14: </item>
+		<item>15: </item>
+		<item>16: </item>
+        <item>17: </item>
+		<item>18: </item>
+		<item>19: </item>
+		<item>20: </item>
+		<item>21: </item>
+        <item>31: </item>
+        <item>32: </item>
+        <item>33: </item>
+		<item>34: </item>
+		<item>35: </item>
+    </string-array>
+
+    <!-- 右倒库 语音提示 -->
+    <string-array name="youdaoku_tts_correction">
+	    <item>1: </item>
+        <item>2: </item>
+		<item>3: </item>
+		<item>4: </item>
+		<item>6: </item>
+		<item>7: </item>
+		<item>11: 挂倒档开始右倒</item>
+        <item>12: 左后视镜根部看不到控制线时右打满</item>
+		<item>15: 从右后视镜观察当右后轮有压角的感觉时左回半圈</item>
+		<item>16: 以右角为中心，确定右后轮不压角的情况下右打满</item>
+        <item>17: </item>
+		<item>18: 观察右后视镜，当车身与库边线平行时左回一圈半</item>
+		<item>19: 从左后视镜的根部观察库口边线，当边线消失后停车</item>
+		<item>20: 看左后镜压二号线</item>
+		<item>21: </item>
+        <item>31: 换一档出库</item>
+        <item>32: 当车头引擎盖前端与路边线有遮挡的感觉时左打满</item>
+        <item>33: 当车头与控制线接近平行时右回一圈半</item>
+		<item>34: 前轮越过控制线停车</item>
+		<item>35: </item>
+    </string-array>
+	
+	<!-- 右倒库 动作提示 -->
+	<string-array name="youdaoku_action">
+		<item>1:停车</item>
+		<item>7:</item>
+		<item>12:右打满</item>
+		<item>13:左回半圈</item>
+		<item>14:右打满</item>
+		<item>16:</item>
+		<item>18:左回一圈半</item>
+		<item>32:左打满</item>
+		<item>33:右回一圈半</item>
+		<item>34:停车</item>
+	</string-array>
+	
+	<!-- 讲一讲 -->
+	<string-array name = "youdaoku_jyj">
+	    <item>1: 左打灯,先调整方向,让车身与左侧边线保持1.5米,然后把车头与前方对正,脚踩离合缓慢前行</item>
+		<item>2: 左打灯,先调整方向,让车身与左侧边线保持1.5米,然后把车头与前方对正,脚踩离合缓慢前行</item>
+		<item>3: 现在控制车速缓慢行驶,向左侧看肩膀对挡车器,停车</item>
+		<item>5: 原地右打满之后,慢慢向前走,看肩膀对角,停车</item>
+		<item>7: 保持方向,挂倒挡</item>
+		<item>9: 看点打轮</item>
+		<item>11: 看右后视镜中库角缓缓进入,当镜中库角和车轮距离变得过近时,方向盘回半圈</item>
+		<item>13: 看后视镜中车身和库边线快平行时迅速回正</item>
+		<item>15: 看左后视镜下沿接近库门线,停车</item>
+		<item>17: 换挡起步,看门抠手对齐左侧库门线,左打九十度</item>
+		<item>19: 看点停车</item>
+	</string-array>
+	
+	<!-- 左倒库 语音提示 -->
+    <string-array name="zuodaoku_tts_correction">
+		<item>-5:先回正方向,向前</item>
+		<item>-6:先回正方向,向后</item>
+		<item>-7:右打满,继续向前</item>
+		<item>-8:回正方向,挂倒挡,倒车回起点</item>
+	    <item>1: 调整座椅和倒车镜,系安全带</item>
+        <item>2: </item>
+		<item>3: 肩膀与感应线对齐时停车</item>
+		<item>4: 停车</item>
+		<item>11: 调整座椅和倒车镜，系安全带挂倒档，开始倒库</item>
+		<item>12: 左后视镜根部看不到控制线时左打满</item>
+        <item>13: 左倒车镜看到左库角时方向回半圈</item>		
+        <item>14: 以左角为中心，左打满</item>
+		<item>15: </item>
+		<item>16: </item>
+        <item>17: </item>
+		<item>18: 观察左后视镜，当车身与库边线接近平行时右回一圈半</item>
+		<item>19: 从左后视镜根部观察库口边线，边线消失后停车</item>
+		<item>20: </item>
+		<item>21: </item>
+        <item>31: 换一档出库</item>
+        <item>32: 车引擎盖前端与路边线有遮挡的感觉时右打满</item>
+        <item>33: 感觉车头与控制线接近平行时左回一圈半</item>
+		<item>34: 前轮越过控制停车</item>
+		<item>35: </item>
+    </string-array>
+	
+	<!-- 动作提示 -->
+	<string-array name="zuodaoku_action">
+		<item>1:停车</item>
+		<item>12:左打满</item>
+		<item>13:方向回半圈</item>
+		<item>14:左打满</item>
+		<item>16:</item>
+		<item>18:右回一圈半</item>
+		<item>32:右打满</item>
+		<item>33:左回一圈半</item>
+	</string-array>
+	
+	<!-- 讲一讲 -->
+	<string-array name = "zuodaoku_jyj">
+	    <item>1: 看离七米线距离</item>
+		<item>2: 请调整回到起点</item>
+		<item>3: 去第一次停车</item>
+		<item>5: 去上线</item>
+		<item>7: 保持方向,挂倒挡</item>
+		<item>9: 看点打轮</item>
+		<item>11: 回轮调整</item>
+		<item>13: 看车回正</item>
+		<item>15: 看点停车</item>
+		<item>17: 换挡起步,看点右打</item>
+		<item>19: 看车回正</item>
+	</string-array>
+
+    <!-- 倒库 语音提示 考试 -->
+    <string-array name="daoku_tts_exam">
+        <item>2: 开始考试</item>
+        <!--item>5: 正确入库</item-->
+        <!--item>10: 正确入库</item-->
+        <item>12: 结束本项目</item>
+    </string-array>
+
+    <!-- 侧方 语音提示 -->
+    <string-array name="cefang_tts_correction">
+		<item>-5:先回正方向,向前</item>
+		<item>-6:先回正方向,向后</item>
+		<item>-7:右打满,继续向前</item>
+		<item>-8:回正方向,挂倒挡,倒车回起点</item>
+		<item>-9:左打满,前进回起点</item>
+		<item>-10:右打满</item>
+        <item>1: 看小镜子底部触碰5号线内侧</item>
+        <item>2: </item>
+        <item>3: 看右车窗二号过控制线停车</item>
+        <item>4: 右打半圈多一点,挂倒挡,松离合起步</item>
+        <item>5: </item>
+		<item>6: 看左后轮压虚线</item>
+		<item>7:</item>
+		<item>8: </item>
+		<item>10: 看小镜子底座与四号线平行</item>
+        <item>11: 成功入库，打左灯，挂一挡出库，看镜子底座压5号线</item>
+		<item>12: </item> 
+		<item>13: </item>
+		<item>14: </item>
+		<item>15: 完成侧方停车</item>
+    </string-array>
+	
+	<!-- 动作提示 -->
+	<string-array name="cefang_action">
+		<item>1:</item>
+		<item>3:停车</item>
+		<item>5:</item>
+		<item>6:左打满</item>
+		<item>10:停车</item>
+		<item>12:回正</item>
+		<item>13:右打一圈</item>
+		<item>14:回正</item>
+	</string-array>
+	
+	<!-- 讲一讲 -->
+	<string-array name="cefang_jyj">
+		<item>1: 从起点缓慢向前行驶,在右后视镜中看车身与边线距离,调整好以后看右侧车窗点位停车</item>
+		<item>2: 请调整回到起点</item>
+		<item>3: 控制离合保持车速,看右侧车窗参考点,立即停车</item>
+		<item>5: 原地方向盘右打满,然后挂倒挡</item>
+		<item>7: 看点右打</item>
+		<item>9: 看左后视镜中挡车器出现就回正</item>
+		<item>11: 看左后视镜后轮快压虚线,左打满</item>
+		<item>13: 抬头看前方或者看右后视镜中边线,平行时立即停车</item>
+		<item>15: 保持左打满,挂一挡,起步前进</item>
+		<item>17: 看点回正</item>
+		<item>19: 看点右打</item>
+		<item>21: 看车回正</item>
+	</string-array>
+
+    <!-- 侧方 语音提示 考试 -->
+    <string-array name="cefang_tts_exam">
+        <item>2: 开始考试</item>
+        <!--item>5: 正确入库</item -->
+        <item>7: 结束本项目</item>
+    </string-array>
+
+
+    <!-- 直角 语音提示 -->
+    <string-array name="zhijiao_tts">
+	    <item>1: 出风口对导向箭头左侧行驶</item>
+        <item>2: 看车门一号标记过控制线</item>
+        <item>3: </item>
+        <item>4: 看车头即将平行</item>
+        <item>5: </item>
+		<item>6: 完成直角转弯</item>
+    </string-array>
+	
+	<!-- 动作提示 -->
+	<string-array name="zhijiao_action">
+		<item>1:停车</item>
+		<item>2:左打满</item>
+		<item>4:回正</item>
+	</string-array>
+	
+	<!-- 讲一讲 -->
+	<string-array name="zhijiao_jyj">
+		<item>1: 靠右行驶</item>
+		<item>3: 看点左打</item>
+		<item>5: 看车回正</item>
+	</string-array>
+	
+	<!-- 右转直角 语音提示 -->
+    <string-array name="zhijiao_you_tts">
+	    <item>1: 这是右转直角</item>
+        <item>2: 看门锁与拐角齐平</item>
+        <item>3: </item>
+        <item>4: 看车身</item>
+        <item>5: </item>
+		<item>6: 完成直角转弯</item>
+    </string-array>
+	
+	<!-- 动作提示 -->
+	<string-array name="youzhijiao_action">
+		<item>1:停车</item>
+		<item>2:右打满</item>
+		<item>4:回正</item>
+	</string-array>
+	
+	<!-- 讲一讲 -->
+	<string-array name="youzhijiao_jyj">
+		<item>1: 靠左行驶</item>
+		<item>3: 看点右打</item>
+		<item>5: 看车回正</item>
+	</string-array>
+
+
+    <!-- 直角 语音提示 考试 -->
+    <string-array name="zhijiao_tts_exam">
+        <item>2: 开始考试</item>
+        <item>3: 结束本项目</item>
+    </string-array>
+
+
+    <!-- 曲线 语音提示-->
+    <string-array name="quxian_tts">
+        <item>1: 左转靠右,右转靠左</item>
+    </string-array>
+	
+	<string-array name="quxian_jyj">
+		<item>1: 左转靠右,右转靠左</item>
+	</string-array>
+
+
+    <!-- 曲线 语音提示 考试 -->
+    <string-array name="quxian_tts_exam">
+        <item>2: 开始考试</item>
+        <item>3: 结束本项目</item>
+    </string-array>
+
+
+    <!-- 坡起 语音提示-->
+    <string-array name="poqi_tts">
+	    <item>1: 看出风口对准箭头左侧行驶</item>
+        <item>2: </item>
+        <item>3: 看肩膀对准左侧标记</item>
+		<item>4: 打左灯，方向盘左打九十度</item>
+		<item>6: 完成坡道起步,下坡时刹车控车速</item>
+    </string-array>
+	
+	<!-- 动作提示 -->
+	<string-array name="poqi_action">
+		<item>1:停车</item>
+		<item>3:停车</item>
+		<item>4:慢慢抬离合,车抖动时定住左脚离合,右脚松刹车起步</item>
+	</string-array>
+	
+	<!-- 讲一讲 -->
+	<string-array name="poqi_jyj">
+		<item>1: 平视前方,方向盘12点钟方向对准箭头,保持车辆直行,</item>
+		<item>3: 看点停车</item>
+		<item>5: 先慢慢抬离合到车辆发生轻微抖动,再抬一点之后定住左脚,然后慢慢松右脚刹车到完全松开</item>
+	</string-array>
+
+
+    <!-- 坡起 语音提示 考试 -->
+    <string-array name="poqi_tts_exam">
+        <item>2: 开始考试</item>
+        <item>3: 结束本项目</item>
+    </string-array>
+
+    <!-- 右倒库 错误原因 -->
+    <string-array name="youdaoku_reason">
+        <item>1: 第一次停车时离边线太近了</item>
+        <item>2: 没有及时回轮调整</item>
+        <item>3: 回轮后再打死打晚了</item>
+        <item>4: 小于30公分没有及时回轮调整</item>
+        <item>5: 库角消失打死方向晚了</item>
+        <item>6: 库角消失打死方向早了</item>
+        <item>7: 回正回早了</item>
+        <item>8: 回正回晚了</item>
+        <item>9: 入库后停车停晚了</item>
+	    <item>10: 入库时车停歪了</item>
+        <item>11: 出库时打轮早了</item>
+        <item>12: 出库时打轮晚了</item>
+    </string-array>
+	
+	<!-- 基础练习 转弯 语音提示 -->
+    <string-array name="turn_tts">
+        <item>1: 回正方向</item>
+        <item>2: 停车，挂一档前进</item>
+        <item>3: 向右打满</item>
+		<item>4: 回正方向</item>
+		<item>5: 停车，挂倒档倒车</item>
+        <item>6: 右打满</item>
+        <item>11: 回正方向</item>
+        <item>12: 停车，挂倒档倒车</item>
+        <item>13: 左打满</item>
+    </string-array>
+
+    <!-- 左倒库 错误原因 -->
+    <string-array name="zuodaoku_reason">
+        <item>1: 最开始向左打轮太晚了</item>
+        <item>2: 最开始向左打轮太早了</item>
+        <item>3: 还未到距库角30公分就开始回轮调整</item>
+        <item>4: 小于30公分没有及时回轮调整</item>
+        <item>5: 库角消失打死方向晚了</item>
+        <item>6: 库角消失打死方向早了</item>
+        <item>7: 最后回正回早了</item>
+        <item>8: 最后回正回晚了</item>
+        <item>9: 打反轮了</item>
+        <item>10: 最后一步停车入库时停晚了</item>
+        <item>11: 出库时打轮早了</item>
+        <item>12: 车身与库角距离小于30厘米时,应该回轮一圈调整,结果这次没有回</item>
+        <item>13: 车身与库角距离一直大于30厘米,应该果断打死,结果这次没有打死</item>
+        <item>14: 车身与库角距离差不多30厘米,应该保持一圈半的轮,直接入库回正</item>
+        <item>15: 第一次打轮慢了或者圈数不够</item>
+        <item>99: 车速太快</item>
+        <item>109: 在上线起点时离七米线稍远,离库稍近,导致参考点容易看不准</item>
+        <item>110: 在上线起点时离七米线稍近,导致参考点容易看不准</item>
+        <item>111: 在上线起点开始倒车时车头向右歪了</item>
+        <item>112: 在上线起点开始倒车时车头向左歪了</item>
+    </string-array>
+
+    <!-- 曲线行驶 错误原因 -->
+    <string-array name="quxian_reason">
+        <item>1: 没有及时向左打轮</item>
+        <item>2: 没有及时向右打轮</item>
+    </string-array>
+
+    <!-- 侧方停车 错误原因 -->
+    <string-array name="cefang_reason">
+        <item>1: 第一次开始向右打轮打早了</item>
+        <item>2: 回正后向左打轮太晚</item>
+        <item>3: 第一次开始向右打轮太晚了</item>
+        <item>4: 回正后向左打轮太早了</item>
+        <item>5: 出库时开始向右打轮两圈半太晚了</item>
+        <item>6: 出库时开始向右打轮两圈半太早</item>
+        <item>7: 车速太快</item>
+    </string-array>
+
+    <!-- 直角转弯 错误原因 -->
+    <string-array name="zhijiao_reason">
+        <item>1: 打轮打早了,或者进项目时没有足够靠右行驶</item>
+        <item>2: 打轮打晚了</item>
+        <item>99: 车速太快</item>
+    </string-array>
+	
+	<!-- 直角转弯 建议 -->
+    <string-array name="youzhijiao_advice">
+        <item>1: 打轮时机再晚一点,进项目时尽量离车道右边线近一点</item>
+        <item>2: 打轮时机再早一点</item>
+        <item>99: 轻轻压下离合器能够控制车速</item>
+    </string-array>
+
+    <!-- 直角转弯 错误原因 -->
+    <string-array name="youzhijiao_reason">
+        <item>1: 打轮打早了,或者进项目时没有足够靠右行驶</item>
+        <item>2: 打轮打晚了</item>
+        <item>99: 车速太快</item>
+    </string-array>
+
+    <!-- 坡起 建议 -->
+    <string-array name="poqi_advice">
+        <item>1: </item>
+    </string-array>
+
+    <!-- 坡起 错误原因 -->
+    <string-array name="poqi_reason">
+        <item>1: 进项目时离车道右边线太近</item>
+    </string-array>
+</resources>

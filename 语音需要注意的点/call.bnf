@@ -1,0 +1,50 @@
+#BNF+IAT 1.0 UTF-8;
+!grammar call;
+!slot <contact>;
+!slot <callPre>;
+!slot <callPhone>;
+!slot <callTo>;
+!slot <tagstart>;
+!slot <tagsex>;
+!slot <tagsurrender>;
+!slot <tagstalled>;
+!slot <tagwhichcoach>;
+!slot <tagthirsty>;
+!slot <tagcannotmove>;
+!slot <tagcanyoudo>;
+!slot <tagage>;
+!slot <tagbeauty>;
+!slot <tagwherefrom>;
+!slot <tagacrossline>;
+!slot <tagstraigh>;
+!slot <tagstalledonslope>;
+!slot <tagslow>;
+!slot <stopexam>;
+!slot <tagbackstraight>;
+!start <callStart>;
+<callStart>:[<callPre>][<callTo>]<contact><callPhone>|[<callPre>]<callPhone>[<callTo>]<contact>|<tagstart>|<tagsex>
+|<tagsurrender>|<tagstalled>|<tagwhichcoach>|<tagthirsty>|<tagcannotmove>|<tagcanyoudo>|<tagage>|<tagbeauty>
+|<tagwherefrom>|<tagacrossline>|<tagstraigh>|<tagstalledonslope>|<tagslow>|<stopexam>|<tagbackstraight>;
+<contact>:张海洋;
+<callPre>:我要|我想|我想要;
+<callPhone>:打电话;
+<callTo>:给;
+<tagstart>:练习|练车|#行驶到了项目区域里面就可以根据提示开始练习啦;
+<tagsex>:是男是女|男的女的|#蜘蛛侠当然是男孩子;
+<tagsurrender>:不想练|不练了|#不要气馁,坚持就是胜利;
+<tagstalled>:熄火|去火|#起步时熄火是因为离合器抬的过快导致的,刹车时熄火因为没有踩离合啊;
+<tagwhichcoach>:哪个教练好|#当然是我最棒啦;
+<tagthirsty>:我渇了|我累了|#咱们驾校有专门的学员休息区,去喝口水休息一下吧;
+<tagcannotmove>:怎么不动|车动不了|#看看手刹是不是没有松开呢;
+<tagcanyoudo>:你能做什么|#我能在你训练的时候及时给你提示,还能指出你的错误呢;
+<tagage>:你多大了|#小伙今年18;
+<tagbeauty>:有没有美女|有没有帅哥|#有呀,这里到处都是;
+<tagwherefrom>:你从哪里来|#我来自;
+<tagacrossline>:总压线|老压线|#不要着急,你可以试着按我的提示做一遍找找感觉,一般都是打方向早了或者晚了;
+<tagstraigh>:车开直|车摆正|开不正|开不直|摆不正|#把车开至你需要;
+<tagstalledonslope>:坡上总熄火|坡上老熄火|#离合抬的太快啦,慢一点再慢一点;
+<tagslow>:慢不下来|车速太快|开得太快|#你要用脚控制住离合器的高低,感觉快了就压下一些,慢了就慢慢松开一些;
+<stopexam>:结束;
+
+!===============================这里就是需要注意的
+<tagbackstraight>:这里的“straight”这个字母不能有|能回正|#回正的时候,看左后视镜,车身快要和线平行的时候就要迅速打回方向盘,打方向要快,不要等到已经平行了再打;

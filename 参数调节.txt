@@ -1,6 +1,0 @@
-左倒库__回轮的参数 控制 动作13，数值往大了调会提前说回正
-
-如何找参数
-	先找到CorrectionDaokuSubEnum
-	然后Alt+F7
-	进而找到代码 sayActionTip（）这个就是
